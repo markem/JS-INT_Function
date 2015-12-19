@@ -1,0 +1,21 @@
+////////////////////////////////////////////////////////////////////////////////
+//  int(n,d). Perform the INT function with D number of decimal places.
+//
+//  Notes: To ensure this function does NOT collide with any other function by
+//    the same name, change the &lt;OBJ> to be whatever the name is of your
+//    library/namespace/class/whatever you want to call it.
+//
+//  Example: jsc.int = function()....
+//    Here I am making the INT() function a part of my JavaScript Code (jsc)
+//    library.  I could just as easily call it mikeyMouse.int() = function()...
+//    or some other name.
+////////////////////////////////////////////////////////////////////////////////
+&lt;OBJ>.int = function()
+{
+    if( arguments.length < 2 ){ return parseInt(arguments[0]); }
+
+    var v = parseInt((arguments[0] * Math.pow(10,arguments[1])) + 0.5);
+    v = parseFloat(v) / Math.pow(10,arguments[1]);
+
+    return v;
+}

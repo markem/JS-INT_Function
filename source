@@ -14,7 +14,7 @@
 {
     if( arguments.length < 2 ){ return parseInt(arguments[0]); }
 
-    var v = parseInt((arguments[0] * Math.pow(10,parseInt(arguments[1]))) + 0.5);
+    var v = parseInt((parseFloat(arguments[0]) * Math.pow(10,parseInt(arguments[1]))) + 0.5);
     v = parseFloat(v) / Math.pow(10,parseInt(arguments[1]));
 
     return v;

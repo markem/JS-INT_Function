@@ -2,7 +2,7 @@
 //  int(n,d). Perform the INT function with D number of decimal places.
 //
 //  Notes: To ensure this function does NOT collide with any other function by
-//    the same name, change the &lt;OBJ> to be whatever the name is of your
+//    the same name, change the <OBJ> to be whatever the name is of your
 //    library/namespace/class/whatever you want to call it.
 //
 //  Example: jsc.int = function()....
@@ -10,7 +10,7 @@
 //    library.  I could just as easily call it mikeyMouse.int() = function()...
 //    or some other name.
 ////////////////////////////////////////////////////////////////////////////////
-&lt;OBJ>.int = function()
+<OBJ>.int = function()
 {
     if( arguments.length < 2 ){ return parseInt(arguments[0]); }
 

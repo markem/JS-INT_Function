@@ -9,6 +9,11 @@
 //    Here I am making the INT() function a part of my JavaScript Code (jsc)
 //    library.  I could just as easily call it mikeyMouse.int() = function()...
 //    or some other name.
+//
+//    Otherwise, change the function line to read:
+//
+//    function int()
+//
 ////////////////////////////////////////////////////////////////////////////////
 <OBJ>.int = function()
 {

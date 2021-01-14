@@ -7,7 +7,7 @@ This function (like many of my other functions are copyrighted but at the same t
 
 What this function does:
 
-It allows you to send over one or two arguments.  The firs argument is the variable that contains the number you want to use INT on.  The second OPTIONAL argument is how many places behind the decimal place you want it to keep.  Thus, the normal INT function simply calls parseInt() and let's Javascript do its normal thing.  BUT!  If you want the old way of doing INT (ie: 0.5 is added on to the number before truncating it) then call the function with TWO arguments.  The first is still the variable name but the second is (againn) how many places behind the decimal point you want to keep.  So if you just want to keep the integer part - you can call it with "(<variable>,0)" and it will just keep the whole number part.  If you send something like "(<variable>,2)" then two places behind the period will be kept.
+It allows you to send over one or two arguments.  The first argument is the variable that contains the number you want to use INT on.  The second OPTIONAL argument is how many places behind the decimal place you want it to keep.  Thus, the normal INT function simply calls parseInt() and let's Javascript do its normal thing.  BUT!  If you want the old way of doing INT (ie: 0.5 is added on to the number before truncating it) then call the function with TWO arguments.  The first is still the variable name but the second is (againn) how many places behind the decimal point you want to keep.  So if you just want to keep the integer part - you can call it with "(<variable>,0)" and it will just keep the whole number part.  If you send something like "(<variable>,2)" then two places behind the period will be kept.
 
 How does it do this?
 
